@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BF4AA4B1C4F69E40031FE93 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF4AA351C4F68640031FE93 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0BF4AA4C1C4F69E40031FE93 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF4AA391C4F68640031FE93 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0BF4AA4D1C4F69E40031FE93 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF4AA3D1C4F68640031FE93 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0BF4AA4E1C4F69E40031FE93 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF4AA411C4F68640031FE93 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0BF98ACA1C4E7C81000252F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF98AC91C4E7C81000252F8 /* AppDelegate.swift */; };
 		0BF98ACC1C4E7C81000252F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF98ACB1C4E7C81000252F8 /* ViewController.swift */; };
 		0BF98ACF1C4E7C81000252F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF98ACD1C4E7C81000252F8 /* Main.storyboard */; };
@@ -72,13 +76,17 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		0BF98AFB1C4E97F6000252F8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				0BF4AA4B1C4F69E40031FE93 /* Alamofire.framework in Embed Frameworks */,
+				0BF4AA4C1C4F69E40031FE93 /* Alamofire.framework in Embed Frameworks */,
+				0BF4AA4D1C4F69E40031FE93 /* Alamofire.framework in Embed Frameworks */,
+				0BF4AA4E1C4F69E40031FE93 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 

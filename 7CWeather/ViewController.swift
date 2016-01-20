@@ -35,7 +35,7 @@
         let dateString : NSString = monthFormatter.stringFromDate(NSDate())
         monthLabel.text = dateString as String
         
-        getFiveDayWeatherForecast("Bangalore")
+        getFiveDayWeatherForecast("Coimbatore")
         
     }
     
